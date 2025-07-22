@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    /* padding: 0;
+    margin: 0;*/
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar {
+    background-color: rgb(249, 249, 249);
+    width: 100%;
+    height: 120%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 4px;
+    font-size: 16px;
+}
+
+.container p {
+    cursor: pointer;
+    position: relative;
+    left: 15px;
+}
+
+.container ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -15px;
+}
+
+.navbar a {
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    font-size: 16px;
+    margin: -5px 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar p:hover,
+.navbar a:hover {
+    background-color: rgba(166, 166, 166, 0.5);
+    box-shadow: 0 0 0 12px rgba(166, 166, 166, 0.5);
+}
+
+
+/* end of navbar  */
+
+
+.landing {
+    background-image: url(WhatsApp\ Image\ 2025-07-21\ at\ 16.48.04_8e5a714d.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin: 10px 20px;
+    position: relative;
+    left: -20px;
+    top: -76px;
+}
+
+.landing p {
+    font-size: 36px;
+    position: relative;
+    top: 666px;
+    left: 27px;
+    letter-spacing: 5px;
+    color: #2f2f2fa2;
+}
+
+/* end of landing  */
+
+.about {
+    display: flex;
+    width: 71.5%;
+    margin: auto;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(86, 86, 86, 0.269);
+}
+
+.about img {
+    width: 500px;
+    height: 650px;
+    opacity: 75%;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+.about h3 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.talk {
+    margin-left: 40px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+
+mark {
+    background-color: rgb(240, 240, 240);
+    padding: 1px;
+    box-shadow: 0px 2px 0 4px rgb(240, 240, 240);
+}
+
+.talk .two {
+    margin-top: -10px;
+    opacity: 50%;
+}
+
+/* end of about  */
+
+.menu {
+    margin-top: -80px;
+    display: flex;
+    width: 71.5%;
+    margin: auto;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(86, 86, 86, 0.269);
+}
+
+.menu img {
+    width: 600px;
+    height: 750px;
+    opacity: 75%;
+}
+
+.menu .food {
+    margin-right: 100px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+
+.menu h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+.menu h3 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
+}
+
+.food .eng {
+    margin-top: -10px;
+    opacity: 50%;
+    margin-bottom: 50px;
+}
+
+/* end of menu  */
+
+/* start contact */
+.contact {
+    width: 71.5%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+
+.contact h1 {
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 60px;
+}
+
+.contact .one {
+    margin-bottom: 18px;
+}
+
+.contact .two {
+    color: #607d8b;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+form {
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+
+input {
+    border: none;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(33, 33, 33, 0.527);
+}
+
+button {
+    border: none;
+    background-color: #f1f1f1;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-bottom: 20px; */
+    margin: 16px 0;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(166, 166, 166, 0.5);
+    /* box-shadow: 0 0 0 12px rgba(166, 166, 166, 0.5); */
+}
+
+/* end of contact  */
+
+.main-footer {
+    background-color: #222;
+    color: #ccc;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+.main-footer p {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.main-footer .me {
+    color: #ccc;
+    /* text-decoration: none; */
+    padding: 0 5px;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.me:hover {
+    color: #FFD700;
+    text-shadow: 0 0 8px rgba(255, 215, 0, 0.6);
+}
